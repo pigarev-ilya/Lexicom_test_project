@@ -9,6 +9,8 @@ RESTful сервис с использованием Fast API и Redis, кото
 
 ### Решение
 
+#### Решение 1 (Python)
+
 ```python
 import psycopg2
 import time
@@ -55,6 +57,7 @@ execution_time = end_time - start_time
 print(f"Время выполнения: {execution_time} секунд")
 ```
 
+#### Решение 2 (SQL)
 
 ```sql
     UPDATE FULL_NAMES
